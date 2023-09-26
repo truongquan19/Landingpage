@@ -1,0 +1,70 @@
+html, body{ margin: 0; height: 100%; overflow:hidden}
+body{
+    background-color: white;
+    background-size: cover;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 250px;
+}
+main{
+    padding: 5rem 5rem;
+}
+h1{
+font-family: 'Outfit', sans-serif;
+font-size: 360px;
+font-weight: 900;
+}
+p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 120px;
+    margin-top: 10px;
+    margin-bottom: 130px;
+    font-weight: 300;
+}
+form a{
+    font-family: 'Outfit', sans-serif;
+    font-size: 7rem;
+    padding: 1rem 7rem;
+    border: 0;
+    font-weight: 700;
+}
+form a:focus{
+outline:none;
+}
+form a[type="button"]{
+    border-radius: 35px;
+    background-color: #CD2026;
+    color: white;
+}
+form a[type="button"]:active{
+    background-color: #A61A1E;
+}
+#red{
+    color: #CD2026;
+}
+.helpus{
+    margin-top:250px;
+    margin-bottom: -100px; 
+}
+.styleyou{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.right{
+   padding-right: 0rem;
+   padding-left: 20rem;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.left{
+    padding-bottom: 150rem;
+}
